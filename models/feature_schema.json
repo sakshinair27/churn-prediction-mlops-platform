@@ -1,0 +1,41 @@
+{
+  "numeric_features": [
+    "tenure_months",
+    "monthly_charges",
+    "total_charges",
+    "num_support_tickets",
+    "num_additional_services",
+    "avg_monthly_usage_gb"
+  ],
+  "binary_features": [
+    "has_tech_support",
+    "has_online_security",
+    "paperless_billing",
+    "senior_citizen",
+    "partner",
+    "dependents"
+  ],
+  "categorical_features": [
+    "contract_type",
+    "internet_service",
+    "payment_method"
+  ],
+  "categorical_values": {
+    "contract_type": [
+      "Month-to-month",
+      "One year",
+      "Two year"
+    ],
+    "internet_service": [
+      "DSL",
+      "Fiber optic",
+      "No"
+    ],
+    "payment_method": [
+      "Bank transfer (automatic)",
+      "Credit card (automatic)",
+      "Electronic check",
+      "Mailed check"
+    ]
+  }
+}
