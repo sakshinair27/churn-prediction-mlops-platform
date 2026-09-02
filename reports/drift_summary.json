@@ -1,0 +1,21 @@
+{
+  "dataset_drift_detected": false,
+  "share_of_drifted_features": 0.4,
+  "number_of_drifted_features": 6,
+  "total_features_monitored": 15,
+  "drifted_features": [
+    "avg_monthly_usage_gb",
+    "monthly_charges",
+    "num_support_tickets",
+    "tenure_months",
+    "contract_type",
+    "payment_method"
+  ],
+  "alert": true,
+  "severity": "warning",
+  "recommended_action": "INVESTIGATE_AND_MONITOR: meaningful drift detected in a subset of features. Increase monitoring frequency, validate upstream data sources, and plan a retrain if drift persists over the next monitoring window.",
+  "reference_rows": 7043,
+  "current_rows": 2000,
+  "reference_dataset": "data/customer_churn_real.csv",
+  "report_html": "reports/drift_report.html"
+}

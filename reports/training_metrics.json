@@ -1,0 +1,111 @@
+{
+  "best_run_id": "9222909f63fa4aa286de3a0ee50fa04e",
+  "best_params": {
+    "n_estimators": 400,
+    "max_depth": 3,
+    "learning_rate": 0.03,
+    "balanced": true
+  },
+  "best_metrics": {
+    "accuracy": 0.7466288147622427,
+    "precision": 0.5148342059336823,
+    "recall": 0.7887700534759359,
+    "f1_score": 0.6230200633579726,
+    "roc_auc": 0.8382172104678497
+  },
+  "all_runs": [
+    {
+      "run_id": "aae99ffc096e47569579d9590e1bde0c",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 3,
+        "learning_rate": 0.1
+      },
+      "metrics": {
+        "accuracy": 0.7998580553584103,
+        "precision": 0.6575342465753424,
+        "recall": 0.5133689839572193,
+        "f1_score": 0.5765765765765766,
+        "roc_auc": 0.8396445271125578
+      }
+    },
+    {
+      "run_id": "10e71fbbc75d48bfb4a87d362b06fc5c",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "learning_rate": 0.05
+      },
+      "metrics": {
+        "accuracy": 0.7991483321504613,
+        "precision": 0.6552901023890785,
+        "recall": 0.5133689839572193,
+        "f1_score": 0.5757121439280359,
+        "roc_auc": 0.8418081066418663
+      }
+    },
+    {
+      "run_id": "12d6231aa0a84d25970a8c5fb035dd0d",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 4,
+        "learning_rate": 0.1
+      },
+      "metrics": {
+        "accuracy": 0.7906316536550745,
+        "precision": 0.627831715210356,
+        "recall": 0.5187165775401069,
+        "f1_score": 0.568081991215227,
+        "roc_auc": 0.8314293833475418
+      }
+    },
+    {
+      "run_id": "3a09690b9ad340fea7e5b1cc48218281",
+      "params": {
+        "n_estimators": 300,
+        "max_depth": 3,
+        "learning_rate": 0.03
+      },
+      "metrics": {
+        "accuracy": 0.7984386089425124,
+        "precision": 0.65625,
+        "recall": 0.5053475935828877,
+        "f1_score": 0.5709969788519638,
+        "roc_auc": 0.8416879795396419
+      }
+    },
+    {
+      "run_id": "aa976d61408d4e66a04a531cc3ed4d71",
+      "params": {
+        "n_estimators": 300,
+        "max_depth": 4,
+        "learning_rate": 0.05,
+        "balanced": true
+      },
+      "metrics": {
+        "accuracy": 0.751596877217885,
+        "precision": 0.5223048327137546,
+        "recall": 0.7513368983957219,
+        "f1_score": 0.6162280701754386,
+        "roc_auc": 0.8313247565165723
+      }
+    },
+    {
+      "run_id": "9222909f63fa4aa286de3a0ee50fa04e",
+      "params": {
+        "n_estimators": 400,
+        "max_depth": 3,
+        "learning_rate": 0.03,
+        "balanced": true
+      },
+      "metrics": {
+        "accuracy": 0.7466288147622427,
+        "precision": 0.5148342059336823,
+        "recall": 0.7887700534759359,
+        "f1_score": 0.6230200633579726,
+        "roc_auc": 0.8382172104678497
+      }
+    }
+  ],
+  "model_name": "churn-predictor"
+}
