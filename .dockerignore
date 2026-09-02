@@ -1,0 +1,9 @@
+mlruns/
+reports/
+data/
+.git/
+.pytest_cache/
+__pycache__/
+*.pyc
+.venv/
+tests/
