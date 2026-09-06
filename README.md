@@ -278,7 +278,7 @@ customer data:
   "current_rows": 2000
 }
 ...
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/43d0c28a-0ea6-4990-bd67-ac36658e23...">
+<img width="800" height="906" alt="image" src="https://github.com/user-attachments/assets/3156485a-57c4-444e-b641-571cd41046d8" />
 
 The full interactive Evidently HTML report (per-feature distribution
 comparisons, drift scores, statistical tests) is generated at
