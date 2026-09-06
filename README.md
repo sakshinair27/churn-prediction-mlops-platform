@@ -277,7 +277,6 @@ customer data:
   "reference_rows": 7043,
   "current_rows": 2000
 }
-...
 <img width="1896" height="906" alt="image" src="https://github.com/user-attachments/assets/a4a269f4-6384-4af4-bdbf-5172833fa2dc" />
 
 The full interactive Evidently HTML report (per-feature distribution
